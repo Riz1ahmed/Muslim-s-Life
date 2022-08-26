@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_info"
+        android:title="Ajker shuchi" />
+    <item
+        android:icon="@drawable/ic_calendar"
+        android:title="Calender" />
+    <item
+        android:icon="@drawable/ic_book"
+        android:title="Qur'an" />
+    <item
+        android:icon="@drawable/ic_dua"
+        android:title="Dua" />
+</menu>

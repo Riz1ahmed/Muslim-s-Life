@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/nv_btn_routine"
         android:icon="@drawable/ic_info"
-        android:title="Ajker shuchi" />
+        android:title="আজকের সূচী" />
     <item
+        android:id="@+id/nv_btn_calender"
         android:icon="@drawable/ic_calendar"
-        android:title="Calender" />
+        android:title="ক্যালেন্ডার" />
     <item
-        android:icon="@drawable/ic_book"
-        android:title="Qur'an" />
-    <item
+        android:id="@+id/nv_btn_dua"
         android:icon="@drawable/ic_dua"
-        android:title="Dua" />
+        android:title="দোয়া" />
+    <item
+        android:id="@+id/nv_btn_others"
+        android:icon="@drawable/ic_book"
+        android:title="অন্যান্য" />
 </menu>

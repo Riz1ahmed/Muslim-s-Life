@@ -1,4 +1,4 @@
-package com.learner.muslimslife.utils
+package com.learner.codereducer.utils
 
 import android.app.Activity
 import android.app.Application
@@ -37,8 +37,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.learner.muslimslife.BuildConfig
-import com.learner.muslimslife.R
+import com.learner.codereducer.R
 import java.util.*
 
 /** @author [Riz1Ahmed](https://fb.com/Riz1Ahmed)
@@ -177,6 +176,7 @@ fun connectViewPager2WithBtmNav(
 }
 
 /**
+ * @param pkgId Your app package ID/name
  * @param drawableName The name of resource drawable as string. ex: "ic frame" or "ic_frame".
  * Here the space( ) will replace with underscore(_) automatically.
  * @param defaultRes In case of not load [drawableName], then load this drawable.
@@ -184,12 +184,12 @@ fun connectViewPager2WithBtmNav(
  */
 @DrawableRes
 fun Context.getDrawableResId(
-    drawableName: String, @DrawableRes defaultRes: Int = R.drawable.ic_book
+    pkgId: String, drawableName: String,
+    @DrawableRes defaultRes: Int = R.drawable.ic_launcher_foreground
 ): Int {
     //LogD("ic for: $drawableName")
     resources.getIdentifier(
-        drawableName.lowercase(Locale.ROOT).replace(" ", "_"),
-        "drawable", BuildConfig.APPLICATION_ID
+        drawableName.lowercase(Locale.ROOT).replace(" ", "_"), "drawable", pkgId
     ).let { resId -> return if (resId != 0) resId else defaultRes }
 }
 

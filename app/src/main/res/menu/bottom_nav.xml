@@ -3,11 +3,11 @@
 
     <item
         android:id="@+id/nv_btn_routine"
-        android:icon="@drawable/ic_info"
+        android:icon="@drawable/ic_today"
         android:title="আজকের সূচী" />
     <item
         android:id="@+id/nv_btn_calender"
-        android:icon="@drawable/ic_calendar"
+        android:icon="@drawable/ic_calender"
         android:title="ক্যালেন্ডার" />
     <item
         android:id="@+id/nv_btn_dua"
@@ -15,6 +15,6 @@
         android:title="দোয়া" />
     <item
         android:id="@+id/nv_btn_others"
-        android:icon="@drawable/ic_book"
+        android:icon="@drawable/ic_holly_book"
         android:title="অন্যান্য" />
 </menu>

@@ -3,7 +3,8 @@ package com.learner.muslimslife.screen.main
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.learner.muslimslife.databinding.ActivityMainBinding
-import com.learner.muslimslife.utils.connectViewPager2WithBtmNav
+import com.learner.codereducer.utils.connectViewPager2WithBtmNav
+import com.learner.muslimslife.R
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

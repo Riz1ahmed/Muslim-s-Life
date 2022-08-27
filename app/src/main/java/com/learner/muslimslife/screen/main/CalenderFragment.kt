@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import com.learner.muslimslife.R
 import com.learner.muslimslife.databinding.FragCalenderBinding
 import com.learner.muslimslife.databinding.ItemCalenderBinding
-import com.learner.muslimslife.utils.MyGlobalAdapter
+import com.learner.codereducer.utils.MyGlobalAdapter
 
 class CalenderFragment : Fragment(R.layout.frag_calender) {
     lateinit var binding: FragCalenderBinding

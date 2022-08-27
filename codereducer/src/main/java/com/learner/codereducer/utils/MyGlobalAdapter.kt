@@ -1,4 +1,4 @@
-package com.learner.muslimslife.utils
+package com.learner.codereducer.utils
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

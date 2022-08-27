@@ -2,4 +2,9 @@
 <resources>
     <dimen name="txt_cale_warn_time">@dimen/_10ssp</dimen>
     <dimen name="txt_cale_salah_time">@dimen/_12ssp</dimen>
+    <dimen name="txt_primary_size">@dimen/_16ssp</dimen>
+    <dimen name="txt_primary_size_small">@dimen/_14ssp</dimen>
+    <dimen name="txt_secondary_size">@dimen/_12ssp</dimen>
+    <dimen name="txt_secondary_size_small">@dimen/_10ssp</dimen>
+    <dimen name="drawer_item_v_padding">@dimen/_10sdp</dimen>
 </resources>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_200sdp"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@color/primary_normal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingVertical="@dimen/_4sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muslim's Life"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_primary_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version: 1.0.0"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_secondary_size_small" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="সেটিংস"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_settings" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="আর্থিক অনুদান দিন"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_money" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@color/ic_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="কিবলা কম্পাস"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_kibla" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="তাসবিহ"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_tasbih" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@color/ic_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="কোরআন ও হাদিস"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_holly_book" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="মাসনুন আমল"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_masnun_dua" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="আর্টিকল"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_article" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="মাসআলা"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_masala" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="প্রচলিত ভূল"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_wrong_think" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="রমজানের খাদ্যাভ্যাস"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_food" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/_14sdp"
+        android:background="@color/ic_grey" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="অ্যাপ সম্পর্কে"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_about" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="ডেভেলপার সম্পর্কে"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/ic_developer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_6sdp"
+        android:paddingVertical="@dimen/drawer_item_v_padding"
+        android:paddingStart="@dimen/_12sdp"
+        android:text="অ্যাপটি শেয়ার করুন"
+        android:textColor="@color/txt_grey"
+        android:textSize="@dimen/txt_secondary_size"
+        app:drawableStartCompat="@drawable/share" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

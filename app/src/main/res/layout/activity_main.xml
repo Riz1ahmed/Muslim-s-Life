@@ -1,27 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".screen.main.MainActivity">
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/vp2_fragments"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/bnv_fragments"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/bnv_fragments"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        app:itemIconTint="@color/tab_navbar_color"
-        app:itemTextColor="@color/tab_navbar_color"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/bottom_nav" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp2_fragments"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/bnv_fragments"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnv_fragments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:itemIconTint="@color/tab_navbar_color"
+            app:itemTextColor="@color/tab_navbar_color"
+            app:labelVisibilityMode="labeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:menu="@menu/bottom_nav" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#111"
+        app:headerLayout="@layout/drawer_main"
+        app:itemIconTint="@color/ic_grey"
+        app:itemTextColor="@color/white" />
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -19,8 +19,9 @@
             android:layout_marginEnd="@dimen/_14sdp">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/btn_drawer"
                 android:layout_width="wrap_content"
+                android:background="?attr/selectableItemBackgroundBorderless"
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_menu"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -35,7 +36,7 @@
                 android:layout_marginStart="@dimen/_14sdp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintStart_toEndOf="@+id/btn_drawer"
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView

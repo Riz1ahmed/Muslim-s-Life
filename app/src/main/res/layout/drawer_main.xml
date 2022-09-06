@@ -32,12 +32,14 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <TextView
+        android:id="@+id/btn_settings"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawablePadding="@dimen/_6sdp"
         android:paddingVertical="@dimen/drawer_item_v_padding"
         android:paddingStart="@dimen/_12sdp"
         android:text="সেটিংস"
+        android:background="?attr/selectableItemBackground"
         android:textColor="@color/txt_grey"
         android:textSize="@dimen/txt_secondary_size"
         app:drawableStartCompat="@drawable/ic_settings" />

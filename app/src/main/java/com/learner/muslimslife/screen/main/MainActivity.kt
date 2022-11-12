@@ -5,11 +5,13 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
-import com.learner.codereducer.utils.connectViewPager2WithBtmNav
+import com.learner.codereducer.utils.extentions.connectViewPager2WithBtmNav
 import com.learner.muslimslife.data.MainScreenNotify
 import com.learner.muslimslife.databinding.ActivityMainBinding
 import com.learner.muslimslife.databinding.DrawerMainBinding
 import com.learner.muslimslife.screen.SettingsActivity
+import com.learner.muslimslife.screen.main.fragments.CalenderFragment
+import com.learner.muslimslife.screen.main.fragments.RoutineFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding

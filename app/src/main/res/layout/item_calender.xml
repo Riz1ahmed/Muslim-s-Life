@@ -34,6 +34,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
+                    android:id="@+id/txt_day_no"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="২৬"
@@ -41,24 +42,28 @@
                     android:textSize="@dimen/_32ssp" />
 
                 <TextView
+                    android:id="@+id/txt_month_with_yr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="আগস্ট ২০২২"
                     android:textColor="@color/primary_normal" />
 
                 <TextView
+                    android:id="@+id/txt_day_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="মুক্রবার"
+                    android:text="শুক্রবার"
                     android:textColor="@color/primary_normal" />
 
                 <TextView
+                    android:id="@+id/txt_bengli_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="১১ ভাদ্র, ১৪২৯"
                     android:textColor="@color/txt_grey" />
 
                 <TextView
+                    android:id="@+id/txt_arabic_data"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="২৭ মহররম, ১৪৪৪"
@@ -79,12 +84,15 @@
                 app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
 
                 <TextView
+                    android:id="@+id/txt_sehri_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="সেহরীর সময়ঃ ৪:১৮"
                     android:textColor="@color/txt_grey" />
 
                 <TextView
+
+                    android:id="@+id/txt_ifter_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ইফতারের সময়ঃ ৬:২৫"
@@ -113,6 +121,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <TextView
+                    android:id="@+id/txt_txt_fajr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="ফজর"
@@ -120,6 +129,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_fajr_start_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৪:২১"
@@ -127,6 +137,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_fajt_end_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৫:৩৭"
@@ -146,6 +157,7 @@
                 app:layout_constraintTop_toTopOf="@+id/linearLayoutCompat2">
 
                 <TextView
+                    android:id="@+id/txt_juhr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="যোহর"
@@ -153,6 +165,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_juhr_start_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৪:২১"
@@ -160,6 +173,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_txt_juhr_end_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৫:৩৭"
@@ -179,6 +193,7 @@
                 app:layout_constraintTop_toTopOf="@+id/linearLayoutCompat2">
 
                 <TextView
+                    android:id="@+id/txt_asr"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="আসর"
@@ -186,6 +201,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_asr_start_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৪:২১"
@@ -193,6 +209,8 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+
+                    android:id="@+id/txt_asr_end_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৫:৩৭"
@@ -213,6 +231,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat2">
 
                 <TextView
+                    android:id="@+id/txt_magrib"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="মাগরীব"
@@ -220,6 +239,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_magrib_start_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৪:২১"
@@ -227,6 +247,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_magrib_end_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৫:৩৭"
@@ -246,6 +267,7 @@
                 app:layout_constraintTop_toTopOf="@+id/linearLayoutCompat4">
 
                 <TextView
+                    android:id="@+id/txt_isha"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="এশা"
@@ -253,6 +275,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_isha_start_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৪:২১"
@@ -260,6 +283,7 @@
                     android:textSize="@dimen/txt_cale_salah_time" />
 
                 <TextView
+                    android:id="@+id/txt_isha_end_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="৫:৩৭"
@@ -278,7 +302,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat4">
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/txt_sun_rise_and_set_time_with_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_8sdp"
@@ -288,6 +312,7 @@
                     android:textSize="@dimen/_11ssp" />
 
                 <TextView
+                    android:id="@+id/txt_salah_haram"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_8sdp"
@@ -297,6 +322,7 @@
                     android:textSize="@dimen/txt_cale_warn_time" />
 
                 <TextView
+                    android:id="@+id/txt_morning_haram_time_range_with_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_3sdp"
@@ -306,6 +332,7 @@
                     android:textSize="@dimen/txt_cale_warn_time" />
 
                 <TextView
+                    android:id="@+id/txt_noon_haram_time_range_with_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -314,6 +341,7 @@
                     android:textSize="@dimen/txt_cale_warn_time" />
 
                 <TextView
+                    android:id="@+id/txt_vur_evening_time_range_with_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
@@ -322,8 +350,6 @@
                     android:textSize="@dimen/txt_cale_warn_time" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 

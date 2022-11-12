@@ -40,6 +40,10 @@ abstract class MyGlobalAdapter<viewType : ViewBinding>(
         notifyDataSetChanged()
     }
 
+    /**
+     * Call this method instead of [notifyItemInserted]
+     * @param position index of inserted position. same as default
+     * [onBindViewHolder] position*/
     fun notifyItemAdded(position: Int) {
         size++
         notifyItemInserted(position)
@@ -48,6 +52,10 @@ abstract class MyGlobalAdapter<viewType : ViewBinding>(
 
     //fun notifyItemModified(position: Int) = notifyItemChanged(position)
 
+    /**
+     * Call this method instead of [notifyItemRemoved]
+     * @param position index of inserted position. same as default
+     * [onBindViewHolder] position*/
     fun notifyItemDeleted(position: Int) {
         size--
         notifyItemRemoved(position)
